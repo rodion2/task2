@@ -27,7 +27,7 @@
             Good job, ${pageContext.request.userPrincipal.name}. Your account is confirmed now.
         </h2>
         <h4 class="text">
-            <a href="${contextPath}/login">Log in to view our site</a>
+            <a href="${contextPath}/main">Go to main site</a>
         </h4>
     </c:if>
 </div>

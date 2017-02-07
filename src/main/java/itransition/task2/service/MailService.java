@@ -9,7 +9,7 @@ import java.io.UnsupportedEncodingException;
 import java.util.Properties;
 
 /**
- * Created by Max on 2/1/2017.
+ * Created by rodya on 2/1/2017.
  */
 public class MailService {
 
@@ -35,7 +35,6 @@ public class MailService {
         try {
 
             Message message = new MimeMessage(session);
-//message.setFrom(new InternetAddress("from@no-spam.com"));
             message.setRecipients(Message.RecipientType.TO,
                     InternetAddress.parse(emailTo));
             message.setSubject("Testing Subject");
